@@ -22,3 +22,23 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+
+op = input()
+
+print("1st Number")
+num1 = int(input())
+print("2nd Number")
+num2 = int(input())
+
+if op == '1':
+    print(add(num1,num2))
+elif op == '2':
+    print(subtract(num1, num2))
+elif op == '3':
+    print(multiply(num1, num2))
+elif op == '4':
+    print(divide(num1, num2))
+else:
+    print('Invalid input')
+
+
